@@ -1,0 +1,11 @@
+Inspiration sources:
+
+
+Parallax "FireWatch" effects:
+	https://medium.com/@hamstu/recreating-the-firewatch-parallax-effect-213694d42f4e
+	http://www.firewatchgame.com
+    
+
+Apple Airpod Pro Javascript Animation Tutorial
+	https://www.youtube.com/watch?v=wLUJ9VNzZXo
+    

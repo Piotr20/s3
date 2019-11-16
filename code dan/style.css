@@ -1,0 +1,304 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 10000px;
+    background: #F65E5E;
+    overflow-x: hidden;
+}
+
+#logo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: fill 6.2s linear forwards 6.2s;
+
+}
+
+#logo path:nth-child(1) {
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+    animation: line 2s ease forwards;
+}
+
+#logo path:nth-child(2) {
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+    animation: line 2s ease forwards 0.3s;
+}
+
+#logo path:nth-child(3) {
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+    animation: line 2s ease forwards 0.6s;
+}
+
+#logo path:nth-child(4) {
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+    animation: line 2s ease forwards 0.9s;
+}
+
+#logo path:nth-child(5) {
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+    animation: line 2s ease forwards 1.2s;
+}
+
+#logo path:nth-child(6) {
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+    animation: line 2s ease forwards 1.5s;
+}
+
+#logo path:nth-child(7) {
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+    animation: line 2s ease forwards 1.8s;
+}
+
+#logo path:nth-child(8) {
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+    animation: line 2s ease forwards 2.1s;
+}
+
+#logo path:nth-child(9) {
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+    animation: line 2s ease forwards 2.4s;
+}
+
+#logo path:nth-child(10) {
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+    animation: line 2s ease forwards 2.7s;
+}
+
+#logo path:nth-child(11) {
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+    animation: line 2s ease forwards 3s;
+}
+
+#logo path:nth-child(12) {
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+    animation: line 2s ease forwards 3.3s;
+}
+
+#logo path:nth-child(13) {
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+    animation: line 2s ease forwards 3.6s;
+}
+
+#logo path:nth-child(14) {
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+    animation: line 2s ease forwards 3.9s;
+
+}
+#logo path:nth-child(15) {
+    stroke-dasharray: 100%;
+    stroke-dashoffset: 100%;
+    animation: line 2s ease forwards 3.9s;
+
+}
+
+@keyframes line {
+    to {
+    stroke-dashoffset:0;
+    }
+}
+
+@keyframes fill {
+    0% {
+        opacity: 1;
+        fill: transparent;
+    }
+    20% {
+        opacity: 1;
+        fill: white;
+        top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+    60% {
+        opacity: 1;
+        fill: white;
+        top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+
+    72% {
+        opacity: 0;
+        fill: white;
+        top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+      100% {
+        opacity: 0;
+        fill: white;
+        top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.title {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    opacity: 0;
+   left: 50%;
+    bottom: -120px;
+    transform: translateX(-50%);
+    animation: fadein 6s ease forwards 6s;
+}
+
+@keyframes fadein {
+    0% {
+        color: transparent;
+
+    }
+    35% {
+        opacity: 1;
+        color: white;
+        bottom: -120px;
+    }
+    60%   {
+        opacity: 1;
+        bottom: -120px;
+    }
+
+    85% {
+        opacity: 1;
+        bottom: 40%;
+
+    }
+     100% {
+        opacity: 1;
+        bottom: 36%;
+
+    }
+}
+
+
+
+
+
+/* -- animation fill scale up to corner --
+    85% {
+
+fill: white;
+        top: -10%;
+    right
+    transform: translate(50%, 50%) scale(0.4);
+
+    }
+        100% {
+
+fill: white;
+        top: -10%;
+    left: -52%;
+    transform: translate(50%, 50%) scale(0.4);
+
+    }*/
+
+/* -- animation fill driving to the side --
+ 70% {
+        opacity: 1;
+        fill: white;
+        top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    85% {
+        opacity: 1;
+        fill:white;
+           top: 50%;
+    left: 50%;
+        transform: translateX(200%);
+    }
+    88% {
+        transform: translateX(100%)scale(0.4);
+        opacity: 0;
+           top: 50%;
+    left: 50%;
+    }
+    90% {
+        opacity: 0;
+        transform: translate(-100%, 50%)
+        scale(0.4);
+        top: -10%;
+
+    }
+
+    96% {
+        opacity: 1;
+        fill: white;
+        top: -10%;
+    left: -50%;
+    transform: translate(50%, 50%) scale(0.4);
+    }
+    100% {
+        opacity: 1;
+        fill: white;
+        top: -10%;
+    left: -52%;
+    transform: translate(50%, 50%) scale(0.4);
+    }
+*/
+
+/*  -- animation fill move up center--
+75% {
+        opacity: 1;
+        fill: white;
+        top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    88% {
+        opacity: 1;
+        fill: white;
+        top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0.4);
+
+    }
+       100% {
+        opacity: 1;
+        fill: white;
+        top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%)scale(0.4);
+
+    } */
